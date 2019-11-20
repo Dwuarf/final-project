@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+/* Style the navigation bar */
+legend{
+    background-color: gray;
+    margin-top: 0.5em;    
+    color: white;
+    text-align: center;
+}
+label{
+    font-size: 1.125em;    
+    margin: auto;
+    margin-right: 30px;    
+    text-align: left;
+    font-weight: bold;
+}
+
+li{
+    padding-bottom: 10px;
+    margin: auto;
+    
+}
+
+fieldset{
+    background-color: lightgray;
+}
+
+form{
+    background-color: white;
+}
