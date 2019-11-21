@@ -1,0 +1,21 @@
+.content{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#piece{
+    padding: 0px 80px;    
+}
+
+th{
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
