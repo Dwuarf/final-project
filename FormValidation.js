@@ -3,11 +3,13 @@ function validateForm(){
 }
 
 function displayAltAddress(){
-    var box = document.getElementById("displayAlt");    //Variable for the checkbox element
-    var alt = document.getElementsByName("altAddress"); //Variable for the alternate address label and text box
+    var box = document.getElementById("displayAlt");
+    var alt = document.getElementsByName("altAddress");
 
-    switch(box.checked){        //Simple switch that uses the true/false checked property
-        case true:              //To display or hide the alternate address line
+    
+
+    switch(box.checked){
+        case true:
             for(i = 0; i <alt.length; i++){
                 alt[i].style = "visibility: visible;";
             }

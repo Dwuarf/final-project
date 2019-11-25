@@ -10,21 +10,32 @@ legend{
 label{
     font-size: 1.125em;    
     margin: auto;
-    margin-right: 30px;    
-    text-align: left;
+    margin-right: 30px;   
     font-weight: bold;
 }
-
+ul{
+    padding-left: 0px;
+}
 li{
     padding-bottom: 10px;
     margin: auto;
-    
 }
 
 fieldset{
-    background-color: lightgray;
+    background-color: rgba(235, 235, 235, 0.4);
+    border-style: groove;
+    border-width: 4px 4px 4px 4px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
 form{
-    background-color: white;
+    background-color: rgba(235, 235, 235, 0.3);
+    border-style: groove;
+    border-width: 2px 2px 2px 2px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
 }
