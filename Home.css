@@ -8,4 +8,33 @@
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
+
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+aside :first-child {
+    width: auto;
+    padding: 0px 40px;
+    margin: 0px 10px 0px 0px;
+    float: left;
+    display: block;
+    font-size: 2em;
+    box-shadow: inset -5px 0 0 0 #fc9f69;
+    font-style: italic;
+    color: black;
+    text-shadow: -2px 2px 1px#fc9f69;
+}
+
+div.card{
+    width: 90%;    
+    margin: 10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+              , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255)
+}
+
+strong{
+    color: #fc9f69;
+    
 }
