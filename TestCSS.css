@@ -19,7 +19,7 @@ body{
     background-size: cover;
 }
 marquee{
-    font-size: 15;
+    font-size: 0.5cm;
     background-color: yellow;
 }
 /* Navbar links */
