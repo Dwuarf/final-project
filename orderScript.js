@@ -5,6 +5,7 @@ var countries = new Array("", "AL", "AK", "AZ", "AR", "CA", "CO"
                          ,"NH", "NJ", "NM", "NY", "NC", "ND", "OH"
                          ,"OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX"
                          ,"UT", "VT", "VA", "WA", "WV", "WI", "WY");
+                         
 var select = document.getElementById("stateSelect");
 
 for(i = 0; i < countries.length; i++){
