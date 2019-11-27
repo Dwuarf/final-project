@@ -4,8 +4,10 @@
 
 #title{
   background-color: #603A01;
+  background: linear-gradient(90deg, #603A01 375px,rgb(199, 188, 173) 60%);
   color: crimson;
   width: auto;
+  text-shadow: 5px 2px 2px  black;
 }
 h1{
     font-style: oblique;font-size: 50px;

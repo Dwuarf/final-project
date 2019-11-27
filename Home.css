@@ -38,3 +38,20 @@ strong{
     color: #fc9f69;
     font-size: 1.1em;
 }
+
+.pictureCard{
+    background-color: rgba(255, 255, 255, 1);
+    border-style: groove;
+    border-width: 2px 2px;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+              , 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+
+    font-size: 1.5em;
+}
+
+span{
+    color :#fc9f69;
+}
