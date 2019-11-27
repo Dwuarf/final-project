@@ -1,6 +1,12 @@
-var email = document.getElementById("email");
+var email = document.getElementById('email');
 
-email.addEventListener('onFocus', setStyle(validEmail(email.value)));
+email.addEventListener('click', alert("you typed"));
+//email.addEventListener('onchange', setStyle(validEmail(email.value)));
+
+function check(email){
+    alert("you changed");
+}
+
 
 function validEmail(emailString){
     if(emailString.contains("@")){
