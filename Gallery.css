@@ -1,47 +1,55 @@
-*{
-    box-sizing: border-box;    
-}
-
-body{
-    margin:0;
-}
-
 .slides{
-    display: block;
-    
+    width: 90%;
+    max-height: inherit;   
+    margin: auto;
 }
 
 img{   
-    width: 60%;     
-    float: left;    
+    width: 70%;     
+    float: left;   
+    max-height: inherit;   
 }
 
 .slideshowContainer{
-    background-color: rgba(255, 255, 255, 1);
-    width: 90%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);   
+    width: 90%; 
     position: relative;
-    margin: auto;
-    overflow: hidden;    
+    margin: 10px auto;    
+    max-height: 600px;
+    max-width: 1000px;    
+    overflow: hidden;
 }
 
-.prev, .next {
+.prev, .next {    
+    display: flex;
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 10%;
+    bottom: 10%;
     width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
+    height: inherit;
+    padding: 16px;   
+    color: rgba(0,0,0,0.8);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 18px;    
+    margin: auto;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 3px 3px 3px 3px;
     user-select: none;
+    border: solid 2px rgba(0,0,0,0.2);
+    background-color:  #603A01;
   }
 
+span{
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+    right: 0;    
 }
 
 .prev:hover, .next:hover {
@@ -49,18 +57,19 @@ img{
 }
 
 .captionText {    
-    font-size: 15px;
-    padding: 8px 12px; 
+    font-size: 15px;     
     width: 40%;
-    float: rigth;                      
+    float: right; 
+    background-color: white;                         
 }
 
 .numberText {
     color: #f2f2f2;
-    font-size: 12px;
+    font-size: 20px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 .fade {

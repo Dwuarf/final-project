@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <title>Bird Dog Pipe Co.</title>
     <link rel="stylesheet" href="TestCSS.css">
-    <link rel="stylesheet" href="Pieces.css">
+    <link rel="stylesheet" href="Home.css"> 
     <link rel="stylesheet" href="Gallery.css">    
 </head>
 
-<h1 id="title" style="color: crimson">Bird Dog Pipe Co.</h1>
-<marquee behavior="scroll" direction="left">This website is a part of ISYS 288 Final
-    Project(Ferris State University)</marquee>
+<body> 
+  <h1 id="title" style="color: crimson">Bird Dog Pipe Co.</h1>
+  <marquee behavior="scroll" direction="left">This website is a part of ISYS 288 Final
+      Project(Ferris State University)</marquee>
 
-<body>    
     <div class="navbar">
         <a href="index.html"><i class="navbar"></i> Home</a>
         <a href="Process.html"><i class="navbar"></i> Process</a>
@@ -32,46 +32,49 @@
     </div>
          
     <div class="slideshowContainer">
+
       <div class="slides fade">
         <div class="numberText">1 / 6</div>
-        <img src="Pipepics/pipe1.jpg" alt="Pipe Picture 1" style="width:100%;">
-        <div class="captionText">Caption Text</div>
+        <img src="Pipepics/pipe1.jpg" alt="Pipe Picture 1">
+        <div class="captionText">
+          <p>
+            Caption Text
+          </p>
+        </div>
       </div>
 
       <div class="slides fade">
         <div class="numberText">2 / 6</div>
-        <img src="Pipepics/pipe2.jpg" alt="Pipe Picture 2" style="width:100%;">
+        <img src="Pipepics/pipe2.jpg" alt="Pipe Picture 2">
         <div class="captionText">Caption Text</div>
       </div>
 
       <div class="slides fade">
         <div class="numberText">3 / 6</div>
-        <img src="Pipepics/pipe3.jpg" alt="Pipe Picture 3" style="width:100%;">
+        <img src="Pipepics/pipe3.jpg" alt="Pipe Picture 3">
         <div class="captionText">Caption Text</div>
       </div>
 
       <div class="slides fade">
         <div class="numberText">4 / 6</div>
-        <img src="Pipepics/pipe4.jpg" alt="Pipe Picture 4" style="width:100%;">
+        <img src="Pipepics/pipe4.jpg" alt="Pipe Picture 4">
         <div class="captionText">Caption Text</div>
       </div>
 
       <div class="slides fade">
         <div class="numberText">5 / 6</div>
-        <img src="Pipepics/pipe6.jpg" alt="Pipe Picture 6" style="width:100%;">
+        <img src="Pipepics/pipe6.jpg" alt="Pipe Picture 6">
         <div class="captionText">Caption Text</div>
       </div>
 
       <div class="slides fade">
         <div class="numberText">6 / 6</div>
-        <img src="Pipepics/pipe7.jpg" alt="Pipe Picture 7" style="width:100%;">
-        <div class="captionText">Caption Text</div>
+        <img src="Pipepics/pipe7.jpg" alt="Pipe Picture 7">
+        <div class="captionText"><p>Caption Text</p></div>
       </div>
 
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      <br style="clear:both;"/>
+      <a class="prev" onclick="plusSlides(-1)"><span>&#10094;</span></a>
+      <a class="next" onclick="plusSlides(1)"><span>&#10095;</span></a>
     </div>
     
     <script type="text/javascript" src="slideshowScript.js"></script>
