@@ -1,0 +1,96 @@
+.slides{
+    width: 90%;
+    max-height: inherit;   
+    margin: auto;
+}
+
+.slideshowContainer{    
+    background-color: rgba(255, 255, 255, 1);   
+    width: 90%; 
+    position: relative;
+    margin: 10px auto;    
+    max-width: 1000px;    
+    overflow: hidden;
+}
+
+img{   
+    max-width: 400px;
+    height: auto;
+    margin: auto;            
+}
+
+.picture{
+    position: relative;
+    float:left;
+}
+
+.prev, .next {    
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    width: auto;
+    height: inherit;
+    padding: 16px;   
+    color: rgba(0,0,0,0.8);
+    font-weight: bold;
+    font-size: 18px;    
+    margin: auto;
+    transition: 0.6s ease;
+    border-radius: 3px 3px 3px 3px;
+    user-select: none;
+    border: solid 2px rgba(0,0,0,0.2);
+    background-color:  #603A01;
+  }
+
+  .next {
+    right: 0;    
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.numberText {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.captionTable{
+    position: relative;    
+    float: left;
+    background-color: white;
+}
+
+.informationTable{
+    border: 2px solid black;
+    border-collapse: collapse;
+    table-layout: auto;
+    overflow:scroll;
+}
+
+td{
+    padding: 2px;
+    margin: auto 10px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}

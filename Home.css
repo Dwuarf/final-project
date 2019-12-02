@@ -2,6 +2,10 @@
 /* CSS Document */
 /* Style the navigation bar */
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #title{
   background-color: #603A01;
   background: linear-gradient(90deg, #603A01 375px,rgb(199, 188, 173) 60%);
@@ -157,3 +161,6 @@ img{
     height: auto;
 }
 
+.link{
+    text-align: center;
+}

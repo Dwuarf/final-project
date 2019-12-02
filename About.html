@@ -6,8 +6,9 @@
     <link rel = "stylesheet" href = "Home.css">
     <link rel = "stylesheet" href = "About.css">
 </head>
+
 <body>
-     <h1 id = "title">Bird Dog Pipe Co.</h1>
+    <h1 id = "title">Bird Dog Pipe Co.</h1>
     <marquee behavior="scroll" direction="left">This website is a part of ISYS 288 Final Project(Ferris State University)</marquee>
     
     <div class="navbar">
@@ -22,7 +23,7 @@
     <div class="slideshowContainer">
         <div class="slides fade">
             <div class="numberText">1 / 3</div>
-            <img src="Pipepics/IMG_0010.jpg" alt="Picture of Finn B.">
+            <div class="picture"><img src="Pipepics/IMG_0010.jpg" alt="Picture of Finn B."></div>
             <div class="captionTable">
                 <table class="informationTable">
                     <caption>Information</caption>
@@ -37,7 +38,7 @@
                         <td>Finn Bilodeau</td>
                         <td>Artist</td>
                         <td><a id="email" href="FinnBilodeau@gmail.com">FinnBilodeau@gmail.com</a></td>
-                        <td><img src="Pipepics/insta.png"> @smartalso_</td>
+                        <td><img style="width:20px; height:auto;" src="Pipepics/insta.png"> @smartalso_</td>
                         <td>Central Michigan University</td>
                     </tr>                    
                 </table>
@@ -45,9 +46,9 @@
         </div>
         
         <div class="slides fade">
-            <div class="numberText">1 / 3</div>
-                <img src="Pipepics/0.jpg" alt="Picture of Joshua LaForest">
-                <div class="captionTable">
+            <div class="numberText">2 / 3</div>
+                <div class="picture"><img src="Pipepics/joshl.png" alt="Picture of Joshua LaForest"></div>
+                <div class="captionTable"><br>
                     <table class="informationTable">
                         <caption>Information</caption>
                         <tr>
@@ -70,8 +71,7 @@
         </div>
 
         <div class="slides fade">
-            <div class="numberText">1 / 3</div>
-                <img src="Pipepics/0.jpg" alt="Picture of Joshua LaForest">
+            <div class="numberText">3 / 3</div>            
                 <div class="captionTable">
                     <table class="informationTable">
                         <caption>Information</caption>
@@ -96,7 +96,7 @@
             <a class="prev" onclick="plusSlides(-1)"><span>&#10094;</span></a>
             <a class="next" onclick="plusSlides(1)"><span>&#10095;</span></a>
         </div>
-
+    </div>
         <script type="text/javascript" src="slideshowScript.js"></script>
 
         <div class="link">
@@ -108,3 +108,4 @@
             <a href="About.html">About</a>
         </div>
 </body>
+</html>
