@@ -55,3 +55,39 @@ strong{
 span{
     color :#fc9f69;
 }
+
+.processCard h2{
+    text-align: center;
+}
+
+.processCard{            
+    width: 90%;    
+    text-align: center;
+    margin: auto;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+              , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);    
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:auto;    
+    align-items: center;
+}
+
+.singleImg{
+    padding: 10px 10px;
+    flex: auto;
+    width: 200px;   
+    margin: 5px;  
+    max-width: 400px; 
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
