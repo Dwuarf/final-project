@@ -6,6 +6,8 @@ window.onload = function(){
 
 function plusSlides(n){
     showSlides(slideIndex += n);
+
+    return slideIndex;
 }
 
 function setSlide(n){

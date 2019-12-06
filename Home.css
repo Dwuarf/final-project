@@ -43,6 +43,8 @@ marquee{
 .navbar{
     overflow: hidden;
     background-color: #603A01;  
+    background-image: url("Pipepics/17887014-big-brown-wood-plank-wall-texture-background.jpg");
+    background-size: cover;
   }
   .navbar a {
     float: left;
