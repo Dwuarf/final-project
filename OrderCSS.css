@@ -1,5 +1,14 @@
 @charset "utf-8";
-/* CSS Document */
+/* Authors:
+        Joshua LaForest
+        Harsh Bhalala
+
+        Dr. Kunuthia
+        ISYS 288
+
+        Description of file: This css document provides the styling and organizations
+        for the form and order page of the website
+        */
 /* Style the navigation bar */
 legend{
     background-color: gray;
