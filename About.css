@@ -69,13 +69,7 @@ img{
 .informationTable{
     border: 2px solid black;
     border-collapse: collapse;
-    table-layout: auto;
-    overflow:scroll;
-}
-
-td{
-    padding: 2px;
-    margin: auto 10px;
+    table-layout: auto;   
 }
 
 .fade {
